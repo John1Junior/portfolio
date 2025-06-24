@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>My Projects</title>
+        <link rel="icon" type="image/jpg" href="photos/photo5.jpg">
+        <link rel="stylesheet" href="Style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="photos/photo1.jpg" type="image/png">
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <a href="Accueil.html" class="logo"><img id="pic" src="photos/photo1.jpg"></a>
+            <nav class="navbar" id="navbar">
+                <a href="Accueil.html" style="--1:1" class="active">Home</a>
+                <a href="about.html" style="--1:2">About</a>
+                <a href="services.html" style="--1:3">Services</a>
+                <a href="skills.html" style="--1:4">Skills</a>
+                <a href="certifs.html" style="--1:5">Certifs</a>
+                <a href="projects.html" style="--1:6">Projects</a>
+                <a href="contact.html" style="--1:7">Contact</a>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="overlay"></div>
+        </header>
+        <section class="certifs">
+            <div class="text"></div>
+            <div class="portfolio" id="project">
+                <div class="main-text" id="project">
+                    <h2 id="text2">Latest <span>Projects</span></h2>
+                    
+                    <div class="portfolio-content"> 
+                        <div class="row">
+                            <img src="photos/Vulnérabilité.jpg">
+                            <div class="layer" >
+                                <h5>plateforme de gestion de Vulnérabilité</h5> 
+                                <h3>Status: Ongoing</h3>                                  
+                                <a href="#"><button class="butonvulnérabilté" id="buton">Learn More</button></a>
+                            </div> 
+                        </div>                        
+                            <div class="row">
+                                <img src="photos/MIT App Inventor.png">
+                                <div class="layer" >
+                                    <h5>Application de traduction</h5>   
+                                    <h3>Status: Ended</h3>                                 
+                                    <a href="#"><button class="butonClappia" id="buton">Learn More</button></a>
+                                    
+                                </div> 
+                            </div>  
+                            <div class="row">
+                                <img src="photos/clappia.png">
+                                <div class="layer" >
+                                    <h5>Application de génération de factures </h5>   
+                                    <h3>Status: Ended</h3>                                 
+                                    <a href="#"><button class="butonclappia" id="buton">Learn More</button></a>
+                                    
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <img src="photos/Active.png">
+                                <div class="layer" >
+                                    <h5>Microsoft Active Diretory</h5>
+                                    <h3>Status: Ended</h3>                                    
+                                    <a href="#"><button class="butonAD" id="buton">Learn More</button></a>
+                                    
+                                </div> 
+                            </div>                                      
+                    </div>                                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Champs a afficher-->
+
+        <section class="pop-upVulnérabilité" id="pop-upVulnérabilité">
+            <span class="overlay"></span>      
+            <div class="modal-box">
+              <i class="fa-regular fa-circle-check"></i>
+              <h2>Vulnérabilité</h2>
+              <h3>Vulnérabulité La plateforme de gestion de vulnérabilités identifie, évalue, suit et aide à corriger les failles de sécurité présentes dans les systèmes informatiques.</h3>   
+              <h2>Advantages</h2>  
+              <div class="objective-list">
+                <li>Détection proactive</li>
+                <li>Priorisation des risques</li>
+                <li>Amélioratiobs de la sécurité</li>
+              </div>
+              <a href="contact.html"><button class="send" id="tell">More</button></a> 
+              <div class="buttons" id="buttons">
+              <i id="close-btn" class='bx bx-x bx-flip-horizontal' style='color:#0ef'></i>              
+              </div> 
+            </div>
+        </section>
+        <section class="pop-upMIT" id="pop-upMIT">
+            <span class="overlay"></span>      
+            <div class="modal-box">
+              <i class="fa-regular fa-circle-check"></i>
+              <h2>MIT</h2>
+              <h3>MIT Mon application de traduction développée avec MIT App Inventor permet de traduire instantanément des mots ou phrases entre différentes langues via une interface simple et mobile.
+
+.</h3>   
+              <h2>Advantages</h2>  
+              <div class="objective-list">
+                <li>Traduction rapide</li>
+                <li>Interface intuitive</li>
+                <li>Accèssible hors ligne</li>
+              </div>
+              <a href="contact.html"><button class="send" id="tell">More</button></a> 
+              <div class="buttons" id="buttons">
+              <i id="close-btn" class='bx bx-x bx-flip-horizontal' style='color:#0ef'></i>              
+              </div> 
+            </div>
+        </section>
+        <section class="pop-upSNORT" id="pop-upSNORT">
+            <span class="overlay"></span>      
+            <div class="modal-box">
+              <i class="fa-regular fa-circle-check"></i>
+              <h2>Clappia</h2>
+              <h3>Clappia L'application de génération de factures conçue avec Clappia permet de créer, personnaliser et envoyer facilement des factures professionnelles depuis un smartphone ou un navigateur..</h3>   
+              <h2>Advantages</h2>  
+              <div class="objective-list">
+                <li>Automation des factures.</li>
+                <li>Gain de temps.</li>
+                <li>Interface sans code.</li>
+              </div>
+              <a href="contact.html"><button class="send" id="tell">More</button></a> 
+              <div class="buttons" id="buttons">
+              <i id="close-btn" class='bx bx-x bx-flip-horizontal' style='color:#0ef'></i>              
+              </div> 
+            </div>
+        </section>
+        <section class="pop-upAD" id="pop-upAD">
+            <span class="overlay"></span>      
+            <div class="modal-box">
+              <i class="fa-regular fa-circle-check"></i>
+              <h2>Active Directory</h2>
+              <h3>Active Directory (AD) is Microsoft's directory service that manages authentication, authorization, and resource management in a Windows environment.</h3>   
+              <h2>Advantages</h2>  
+              <div class="objective-list">
+                <li>Improve organization security through identity management.</li>
+                <li>Acquire technical skills for AD administration.</li>
+                <li>Implement security policies to protect resources.</li>
+              </div>
+              <a href="contact.html"><button class="send" id="tell">More</button></a> 
+              <div class="buttons" id="buttons">
+              <i id="close-btn" class='bx bx-x bx-flip-horizontal' style='color:#0ef'></i>              
+              </div> 
+            </div>
+        </section>
+
+        <script>
+
+            
+            const popUpVulnérabilité = document.querySelector(".pop-upVulnérabilité");
+            const showBtnVulnérabilité = document.querySelector(".butonVulnérabilté");
+            const closeBtnVunlérabilité = document.querySelector(".pop-upVulérabilité #close-btn");
+
+            const popUpMIT = document.querySelector(".pop-upMIT");
+            const showBtnMIT = document.querySelector(".butonMIT");
+            const closeBtnMIT = document.querySelector(".pop-upMIT #close-btn");
+
+            const popUp = document.querySelector(".pop-upClappia");
+            const showBtnClappia = document.querySelector(".butonClappia");
+            const closeBtnClappia = document.querySelector(".pop-upClappia #close-btn");
+
+            const overlay = document.querySelector(".overlay");
+
+            const popUpAD = document.querySelector(".pop-upAD");
+            const showBtnAD = document.querySelector(".butonAD");
+            const closeBtnAD = document.querySelector(".pop-upAD #close-btn");
+
+            showBtnVulnérabilité.addEventListener("click", () => popUpVulnérabilité.classList.add("active"));
+            showBtnMIT.addEventListener("click", () => popUpMIT.classList.add("active"));
+            showBtnClappia.addEventListener("click", () => popUpClappia.classList.add("active"));
+            showBtnAD.addEventListener("click", () => popUpAD.classList.add("active"));
+
+            closeBtnVulnérabilité.addEventListener("click", () => popUpVulnérabilité.classList.remove("active"));
+            closeBtnMIT.addEventListener("click", () => popUpMIT.classList.remove("active"));
+            closeBtnClappia.addEventListener("click", () => popUpClappia.classList.remove("active"));
+            closeBtnAD.addEventListener("click", () => popUpAD.classList.remove("active"));
+
+            overlay.addEventListener("click", () => {
+                popUpVulnérabilita.classList.remove("active");
+                popUpMIT.classList.remove("active");
+                popUpClappia.classList.remove("active");
+                popUpAD.classList.remove("active");
+            });
+
+        </script>
+        
+        
+        <script src="main1.js "></script>
+    </body>
+</html>
