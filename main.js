@@ -1,5 +1,5 @@
 var typed= new Typed(".text",{
-    strings:["Sytem & Network Administrator" , "web developper"],
+    strings:["System & Network Administrator" , "web developper"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
